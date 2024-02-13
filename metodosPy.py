@@ -59,6 +59,16 @@ pop(): Removes and returns an arbitrary element from the set; raises a KeyError 
 union(set): Returns a new set with elements from the set and all others.
 intersection(set): Returns a new set with elements common to the set and all others.
 
+##Conversion Methods:
+
+int(x): Converts x to an integer.
+float(x): Converts x to a floating-point number.
+str(x): Converts object x to a string representation.
+list(iterable): Converts an iterable to a list.
+tuple(iterable): Converts an iterable to a tuple.
+set(iterable): Converts an iterable to a set.
+dict(sequence): Converts a sequence of (key, value) pairs to a dictionary.
+
 ##Variable and Attribute Functions:
 
 getattr(object, name[, default]): Returns the value of the named attribute of an object.
