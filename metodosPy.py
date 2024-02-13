@@ -35,6 +35,8 @@ pop(index): Removes and returns the element at the given index (or the last item
 index(element, start, end): Returns the index of the first occurrence of the element.
 count(element): Returns the number of occurrences of the element in the list.
 sort(key=None, reverse=False): Sorts the items of the list in place.
+reverse()
+copy()
 
 ##Dictionary Methods:+
 
@@ -44,6 +46,8 @@ values(): Returns a view object displaying a list of all the values in the dicti
 items(): Returns a view object with tuples of each key-value pair in the dictionary.
 update(other): Updates the dictionary with elements from another dictionary or from an iterable of key-value pairs.
 pop(key, default): Removes the element with the specified key and returns its value; returns default if the key is not found.
+clear()
+popitems()
 
 ##Tuple Operations:
 
@@ -88,6 +92,9 @@ file.close(): Flushes and closes the file object.
 type(object): Returns the type of an object.
 isinstance(object, classinfo): Returns True if the object is an instance or subclass of classinfo.
 id(object): Returns the identity of an object.
+dir()
+help()
+  
 
 
 
